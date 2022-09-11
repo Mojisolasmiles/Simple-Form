@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form-Odin</title>
+</head>
+<body>
+    <div class="container">
+    <div class="logo">
+        <div class="odin">
+        <img src="odin-lined.png" alt="">
+        <h1>ODIN</h1>
+    </div>
+    </div>
+    <div class="content">
+        <div>
+            <h3>This is not a real online service! You know you need something <br> like this in your life to help realize your deepest dreams. <br> Sign up <span>now</span> to get started. <br> <br>You <span>know</span> you want to.</h3>
+        </div>
+        <div class="form">
+            <div class="mid">
+            <h4>Let's do this!</h4>
+        <div class="form-group">
+            <form onsubmit ="return validateForm()"> 
+            <div class="lb1">
+            <label for="FM">FIRST NAME</label>
+            <input type="text" id="fname" value="" required> <br>
+            <label for="mail">EMAIL</label>
+            <input type="email" id="mail" value="" required><br>
+            <label for="PS">PASSWORD</label>
+            <input type="password" name="password" id="passwords" />
+            <span id="message1" style="color: rgb(255, 98, 98);">  </span><br><br>
+        </div>
+        <div class="lb2">
+            <label for="LM">LAST NAME</label>
+            <input type="text" id="lname" value="" required><br>
+            <label for="number">PHONE NUMBER</label>
+            <input type="tel" id="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" name="phone" value="" placeholder="0800-123-4567" required><br>
+            <label for="CPS">CONFIRM PASSWORD</label>
+            <input type="password" name="passwords" id="passwordss" />
+            <span id="message2" style="color: rgb(255, 98, 98);">  </span><br><br>
+        </div>
+    </div>
+        <div class="btn">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+        </div>
+    </form>
+    </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

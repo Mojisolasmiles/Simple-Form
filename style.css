@@ -1,0 +1,119 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    height: 591px;
+    width: 800px;
+    margin: 0% 25% 0% 25%;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background: url(https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=438&q=80);
+}
+body{
+    background: rgb(20, 30, 34);
+}
+.logo{
+    width: 300px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: stretch;
+}
+.odin{
+    display: inline-flex;
+    width: 100%;
+    height: 18%;
+    background: rgba(0, 0, 0, 0.327);
+    margin: 40% 0% 0% 0%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+img{
+    height: 80px;
+}
+h1{
+    color: rgb(223, 229, 235);
+    font-family: cursive;
+    font-size: 45px;
+}
+.content{
+    min-height: 570px;
+    width: 500px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+h3{
+    margin-left: -35px;
+    color: rgb(226, 224, 224);
+    font-size: medium;
+}
+h3 span{
+    font-style: italic;
+}
+.form{
+    padding-bottom: 10px;
+}
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 65px;
+}
+label{
+    font-size: x-small;
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+    color: rgb(226, 224, 224);
+}
+.btn{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+button{
+    background: #596D48;
+    border-style: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn p{
+    font-size: small;
+    font-weight: lighter;
+    color: #b1a9a9;
+}
+.btn p span{
+    color: #f9faf8;
+    font-weight: bold;
+}
+.mid{
+    background: rgba(0, 0, 0, 0.327);
+}
+h4{
+    padding-left: 20px;
+    color: rgb(226, 224, 224);
+}
+input{
+    border: 2px solid darkgrey;
+    border-radius: 4px;
+    outline: none;
+}
+input:focus {
+    border: 3px solid lightseagreen;
+}
